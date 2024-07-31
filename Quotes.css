@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.quote-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.quote-input input{
+    padding: 10px;
+    margin: 5px 0;
+} .quote-input button {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background: rgb(189, 232, 240);
+}
+.quote-list li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 1px solid #ccc; */
+}
+.quote-item {
+    
+}
+.remove-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+span {
+    font-weight: bold;
+}
